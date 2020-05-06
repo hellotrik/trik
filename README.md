@@ -1,0 +1,2 @@
+# trik
+pip install trik

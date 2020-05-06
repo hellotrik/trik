@@ -11,7 +11,7 @@ install_requires = [
 ]
 if __name__ == '__main__':
     setup(name='trik',
-          version="0.1.11",
+          version="0.1.12",
           author='hellotrik',
           url='https://space.bilibili.com/489142974',
           author_email="hellotrik@foxmail.com",
@@ -21,7 +21,7 @@ if __name__ == '__main__':
           platforms=['MS Windows', 'Mac X', 'Unix/Linux'],
           license='MIT',
           keywords=['自动微分', '符号计算'],
-          packages=['trik','examples','trik.sheng','trik.ya','trik.yu','trik.yu.data_handler','trik.yu.data_set'],
+          packages=['trik','examples','trik.sheng','trik.ya','trik.yu'],
           include_package_data=True,
           install_requires=install_requires,
           classifiers=["Natural Language :: English",
